@@ -79,6 +79,11 @@ pub enum Flavor {
     Frappe,
     Macchiato,
     Mocha,
+    Lattechadpuccin,
+    Frappechadpuccin,
+    Macchiatochadpuccin,
+    Mochachadpuccin,
+
 }
 
 impl From<Flavor> for catppuccin::FlavorName {
@@ -88,6 +93,10 @@ impl From<Flavor> for catppuccin::FlavorName {
             Flavor::Frappe => Self::Frappe,
             Flavor::Macchiato => Self::Macchiato,
             Flavor::Mocha => Self::Mocha,
+            Flavor::Lattechadpuccin => Self::Lattechadpuccin,
+            Flavor::Frappechadpuccin => Self::Frappechadpuccin,
+            Flavor::Macchiatochadpuccin => Self::Macchiatochadpuccin,
+            Flavor::Mochachadpuccin => Self::Mochachadpuccin,
         }
     }
 }
@@ -104,6 +113,14 @@ pub struct ColorOverrides {
     pub macchiato: HashMap<String, String>,
     #[serde(default)]
     pub mocha: HashMap<String, String>,
+    #[serde(default)]
+    pub lattechadpuccin: HashMap<String, String>,
+    #[serde(default)]
+    pub frappechadpuccin: HashMap<String, String>,
+    #[serde(default)]
+    pub macchiatochadpuccin: HashMap<String, String>,
+    #[serde(default)]
+    pub mochachadpuccin: HashMap<String, String>,
 }
 
 #[derive(Clone, Copy, Debug, clap::ValueEnum)]

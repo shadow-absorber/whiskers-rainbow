@@ -186,6 +186,11 @@ pub fn build_palette(color_overrides: Option<&ColorOverrides>) -> Result<Palette
                     catppuccin::FlavorName::Frappe => &co.frappe,
                     catppuccin::FlavorName::Macchiato => &co.macchiato,
                     catppuccin::FlavorName::Mocha => &co.mocha,
+                    catppuccin::FlavorName::Lattechadpuccin => &co.lattechadpuccin,
+                    catppuccin::FlavorName::Frappechadpuccin => &co.frappechadpuccin,
+                    catppuccin::FlavorName::Macchiatochadpuccin => &co.macchiatochadpuccin,
+                    catppuccin::FlavorName::Mochachadpuccin => &co.mochachadpuccin,
+
                 })
                 .and_then(|o| o.get(color.name.identifier()).cloned())
                 .map(|s| color_from_hex_override(&s, color))
