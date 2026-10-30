@@ -1,6 +1,6 @@
 [package]
 name = "catppuccin-whiskers-rainbow"
-version = "1.0.0"
+version = "3.0.0"
 edition = "2021"
 description = "😾 Soothing port creation tool for the high-spirited!"
 readme = "README.md"
