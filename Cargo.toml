@@ -1,11 +1,11 @@
 [package]
-name = "catppuccin-whiskers"
-version = "2.9.0"
+name = "catppuccin-whiskers-rainbow"
+version = "1.0.0"
 edition = "2021"
 description = "😾 Soothing port creation tool for the high-spirited!"
 readme = "README.md"
 homepage = "https://github.com/catppuccin/whiskers/tree/main/whiskers"
-repository = "https://github.com/catppuccin/whiskers"
+repository = "https://github.com/shadow-absorber/whiskers-rainbow/"
 license = "MIT"
 
 [package.metadata.binstall]
