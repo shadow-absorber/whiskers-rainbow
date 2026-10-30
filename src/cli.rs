@@ -86,7 +86,7 @@ pub enum Flavor {
 
 }
 
-impl From<Flavor> for catppuccin::FlavorName {
+impl From<Flavor> for catppuccin_rainbow::FlavorName {
     fn from(val: Flavor) -> Self {
         match val {
             Flavor::Latte => Self::Latte,
