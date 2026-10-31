@@ -186,6 +186,7 @@ pub fn build_palette(color_overrides: Option<&ColorOverrides>) -> Result<Palette
                     catppuccin_rainbow::FlavorName::Frappe => &co.frappe,
                     catppuccin_rainbow::FlavorName::Macchiato => &co.macchiato,
                     catppuccin_rainbow::FlavorName::Mocha => &co.mocha,
+                    catppuccin_rainbow::FlavorName::Americano => &co.americano,
                     catppuccin_rainbow::FlavorName::Lattechadpuccin => &co.lattechadpuccin,
                     catppuccin_rainbow::FlavorName::Frappechadpuccin => &co.frappechadpuccin,
                     catppuccin_rainbow::FlavorName::Macchiatochadpuccin => &co.macchiatochadpuccin,

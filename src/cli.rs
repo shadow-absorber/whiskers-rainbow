@@ -79,6 +79,7 @@ pub enum Flavor {
     Frappe,
     Macchiato,
     Mocha,
+    Americano,
     Lattechadpuccin,
     Frappechadpuccin,
     Macchiatochadpuccin,
@@ -93,6 +94,7 @@ impl From<Flavor> for catppuccin_rainbow::FlavorName {
             Flavor::Frappe => Self::Frappe,
             Flavor::Macchiato => Self::Macchiato,
             Flavor::Mocha => Self::Mocha,
+            Flavor::Americano => Self::Americano,
             Flavor::Lattechadpuccin => Self::Lattechadpuccin,
             Flavor::Frappechadpuccin => Self::Frappechadpuccin,
             Flavor::Macchiatochadpuccin => Self::Macchiatochadpuccin,
@@ -113,6 +115,8 @@ pub struct ColorOverrides {
     pub macchiato: HashMap<String, String>,
     #[serde(default)]
     pub mocha: HashMap<String, String>,
+    #[serde(default)]
+    pub Americano: HashMap<String, String>,
     #[serde(default)]
     pub lattechadpuccin: HashMap<String, String>,
     #[serde(default)]
