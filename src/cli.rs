@@ -116,7 +116,7 @@ pub struct ColorOverrides {
     #[serde(default)]
     pub mocha: HashMap<String, String>,
     #[serde(default)]
-    pub Americano: HashMap<String, String>,
+    pub americano: HashMap<String, String>,
     #[serde(default)]
     pub lattechadpuccin: HashMap<String, String>,
     #[serde(default)]
